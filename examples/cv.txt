@@ -1,0 +1,22 @@
+Jan Kowalski
+
+Doświadczony Software Engineer z 5-letnim stażem w tworzeniu aplikacji backendowych.
+
+Umiejętności techniczne:
+- Python, Django, FastAPI, Flask
+- projektowanie REST API
+- PostgreSQL, MySQL, Redis
+- Docker, docker-compose, podstawy Kubernetes
+- CI/CD: GitHub Actions, Jenkins
+- komunikacja w języku angielskim (B2)
+
+Doświadczenie:
+2021 - obecnie: Senior Python Developer w DataFlow
+- tworzenie mikroserwisów do przetwarzania danych
+- optymalizacja zapytań SQL
+- współpraca z zespołem DevOps przy wdrażaniu na Kubernetes
+
+2018 - 2021: Python Developer w WebApps
+- rozwój aplikacji webowych w Django
+- projektowanie i implementacja REST API
+- utrzymanie i automatyzacja pipeline'ów CI/CD

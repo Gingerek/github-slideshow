@@ -31,3 +31,15 @@ python3 script/cv_evaluator.py oferta.txt cv.txt --top-n 25 --extra-keyword pyth
 
 Add `--json` if you prefer machine-readable output that can be used from other
 scripts.
+
+### Szybki start z przykładowymi danymi
+
+W katalogu [`examples/`](examples/) znajdziesz przykładową ofertę pracy oraz CV.
+Dzięki temu możesz od razu uruchomić narzędzie i zobaczyć raport:
+
+```bash
+python3 script/cv_evaluator.py examples/offer.txt examples/cv.txt
+```
+
+Otrzymasz wynik z listą dopasowanych i brakujących słów kluczowych, co ułatwia
+szybką ocenę skuteczności narzędzia.

@@ -1,0 +1,13 @@
+Poszukujemy doświadczonego Python Developera do pracy nad systemem analizy danych.
+
+Wymagania:
+- bardzo dobra znajomość Python, Django, REST API
+- doświadczenie z bazami danych PostgreSQL
+- praktyczna znajomość Docker i Kubernetes
+- mile widziana znajomość narzędzi do CI/CD (GitHub Actions, GitLab CI)
+- dobra znajomość języka angielskiego
+
+Obowiązki:
+- projektowanie i rozwijanie mikroserwisów
+- współpraca z zespołem DevOps
+- optymalizacja zapytań do bazy danych
