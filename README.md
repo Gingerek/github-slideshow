@@ -11,3 +11,35 @@ I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey t
 I'll meet you over there, can't wait to get started!
 
 This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+
+## CV evaluation helper
+
+This repository now also contains a small command line tool that helps you check
+how well a CV matches a specific job offer. The script analyses the most
+important keywords in the offer and reports which of them are present in the CV.
+
+```bash
+python3 script/cv_evaluator.py oferta.txt cv.txt
+```
+
+Use `--top-n` to limit the number of keywords taken from the offer and
+`--extra-keyword` to add your own must-have requirements:
+
+```bash
+python3 script/cv_evaluator.py oferta.txt cv.txt --top-n 25 --extra-keyword python --extra-keyword django
+```
+
+Add `--json` if you prefer machine-readable output that can be used from other
+scripts.
+
+### Szybki start z przykładowymi danymi
+
+W katalogu [`examples/`](examples/) znajdziesz przykładową ofertę pracy oraz CV.
+Dzięki temu możesz od razu uruchomić narzędzie i zobaczyć raport:
+
+```bash
+python3 script/cv_evaluator.py examples/offer.txt examples/cv.txt
+```
+
+Otrzymasz wynik z listą dopasowanych i brakujących słów kluczowych, co ułatwia
+szybką ocenę skuteczności narzędzia.
